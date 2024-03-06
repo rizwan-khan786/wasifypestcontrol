@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Packers Movers",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/truck.png"
+    },
+    {
+        "id": "2",
+        "name": "Cleaning",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/mop.png"
+    },
+    {
+        "id": "3",
+        "name": "Pest Control",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/insecticide.png"
+    },
+    {
+        "id": "4",
+        "name": "Ac Repair",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/air-conditioner.png"
+    },
+    {
+        "id": "5",
+        "name": "RO Service",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/customer-service.png"
+    },
+    {
+        "id": "6",
+        "name": "Computer Repair",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/laptop.png"
+    },
+    {
+        "id": "7",
+        "name": "Interior",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/blueprint.png"
+    },
+    {
+        "id": "8",
+        "name": "Plumber",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/plumber.png"
+    },
+    {
+        "id": "9",
+        "name": "Carpenter",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/carpenter.png"
+    },
+    {
+        "id": "10",
+        "name": "Electrician",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/electrician.png"
+    },
+    {
+        "id": "11",
+        "name": "Painter",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/painting.png"
+    },
+    {
+        "id": "12",
+        "name": "Makeup",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/makeup.png"
+    }
+]

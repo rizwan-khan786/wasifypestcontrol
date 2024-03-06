@@ -1,0 +1,211 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: rgb(44,86,155);
+}
+
+p{
+    text-align: justify;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    min-width: 100%;
+}
+
+.responsive-image {
+    width: 100%;
+    max-height: 350px;
+    height: auto;
+    display: block; 
+}
+
+.image-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+}
+
+#map-container {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    margin-top: 20px;
+    border: 1px solid #939393;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.form-label {
+display: block;
+margin-bottom: 10px;
+}
+
+.form-input:last-child {
+    margin-bottom: 0; /* Remove bottom margin for the last input field */
+    grid-column: span 2; /* Make the textarea span two columns */
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+#message {
+    grid-column: span 2;
+}
+
+.form-button {
+    background-color: rgb(44, 86, 155);
+    color: white;
+    width: 50%;
+    padding: 10px 15px;
+    border: none;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.form-button i {
+    margin-left: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.fa-location-dot {
+    color: #FFD43B;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+td {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.gradient-div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgb(44 86 155), rgb(255 205 40));
+    color: white; /* Set text color to white */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%; /* Adjust as needed for larger screens */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+.card p {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: 100%;
+    }
+
+    .gradient-div {
+        width: 100%;
+        height: 150px; 
+    }
+
+    .card {
+        flex-direction: column;
+        width: 45%;
+    }
+
+    
+}

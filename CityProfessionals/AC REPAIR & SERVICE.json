@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "AC Routine Service",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/air-conditioner-1.png"
+    },
+    {
+        "id": "2",
+        "name": "AC Gas Filling",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/air-conditioning-1.png"
+    },
+    {
+        "id": "3",
+        "name": "AC Repair",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/air-conditioner.png"
+    },
+    {
+        "id": "4",
+        "name": "Uninstalling",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/maintenance.png"
+    },
+    {
+        "id": "5",
+        "name": "Installation",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/tools.png"
+    },
+    {
+        "id": "6",
+        "name": "AC Relocation",
+        "image": "https://cityprofessionals.in/wp-content/uploads/2023/06/relocation-1.png"
+    }
+]

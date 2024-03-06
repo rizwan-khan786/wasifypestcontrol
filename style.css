@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  iframe {
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Set max-width to prevent iframe from being too wide */
+    height: 100%; /* Adjust height to fill container */
+  }
+  
+  @media (max-width: 768px) {
+    iframe {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  }
+  
